@@ -12,7 +12,7 @@ export const Home = () => {
                     The Portfolio of 
                 </h1>
                 <h1 className="text-5xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent">
-                    {'{ Samuel Ephrim }'}
+                    {'< Samuel Ephrim />'}
                 </h1>
                 <p className="text-gray-400 text-lg mb-4 max-w-lg mx-auto">
                     I am a passionate and self-driven Software Engineering
