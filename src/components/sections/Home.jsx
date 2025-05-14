@@ -15,9 +15,10 @@ export const Home = () => {
                     {'< Samuel Ephrim />'}
                 </h1>
                 <p className="text-gray-400 text-lg mb-4 max-w-lg mx-auto">
-                    I am a passionate and self-driven Software Engineering
-                    student at ALX, specializing in backend web development
-                    with Python and Django. With a strong foundation in  including
+                    Hi, I'm a passionate and detail-oriented Full-Stack Web Developer 
+                    currently studying at ALX Africa. I specialize in building responsive, 
+                    user-friendly web applications using modern technologies like Django, 
+                    React, JavaScript, Python, and TailwindCSS.
                 </p>
                 <div className="flex justify-center space-x-4">
                     <a href="#projects" className="bg-blue-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden 
