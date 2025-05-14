@@ -3,19 +3,18 @@ import { RevealOnScroll } from "../RevealOnScroll";
 export const About = () => {
 
     const frontendSkills = [
+        "JavaScrip", 
         "React",
-        "Vue",
-        "TypeScript",
         "Tailwindcss",
-        "Svelte",
     ];
 
     const backendSkills = [
         "Node.js",
         "Python",
-        "AWS",
+        "Express",
+        "MySQL",
+        "PostgreSQL",
         "MongoDB",
-        "GraphOL",
     ]
 
     return (
@@ -59,7 +58,7 @@ export const About = () => {
                         <div>
                             <div className="grid grid-col-1 md:grid-cols-2 gap-6">
                                 <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                                    <h3 className="text-xl font-bold mb-4"> Frontend</h3>
+                                    <h3 className="text-xl font-bold mb-4"> Frontend Skills</h3>
                                     <div className="flex flex-wrap gap-2">
                                         {frontendSkills.map((tech, key) => (
 
@@ -74,7 +73,7 @@ export const About = () => {
 
                                 </div>
                                 <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                                    <h3 className="text-xl font-bold mb-4"> BackendSkills</h3>
+                                    <h3 className="text-xl font-bold mb-4"> Backend Skills</h3>
                                     <div className="flex flex-wrap gap-2">
                                         {backendSkills.map((tech, key) => (
 
@@ -97,10 +96,10 @@ export const About = () => {
                             <h3 className="text-xl font-bold mb-4"> 📖 Education</h3>
                             <ul className="list-disc list-inside text-gray-300 space-y-2">
                                 <li>
-                                    <strong>B.S in Computer Science</strong> - XYZ University 2016 - 2020
+                                    <strong>Back-End Web Development </strong> - ALX Africa 2021 - 2025
                                 </li>
                                 <li>
-                                    <strong>Relevant course work</strong> - XYZ University 2016 - 2020
+                                    <strong>Front-End Web Development </strong> - ALX Africa 2021 - 2025
                                 </li>
                             </ul>
                         </div>

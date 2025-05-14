@@ -20,7 +20,7 @@ export const RevealOnScroll = ({children}) => {
 
     
     return (
-        <div ref={ref} className="reval">{children}</div>
+        <div ref={ref} className="reveal">{children}</div>
     );
   
 };
